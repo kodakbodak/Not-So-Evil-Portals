@@ -10,7 +10,7 @@ require_once('helper.php');
 		<center>
 			<h1>Welcome to BadassNet</h1>
 			<h2>The World's Most Badass Free Internet</h2>
-				<form action="pwned.html">
+				<form action="pwned.php">
 				<input type="submit" value="Click Here to Connect!" />
 			</form>
 		</center>
