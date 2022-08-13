@@ -18,18 +18,31 @@ require_once('helper.php');
 	<body>
 		<audio control loop autoplay src="audio/bad-to-the-bone.mp3" id="bttb"></audio>
 		
-		<script type="text/javascript">	
-			window.onclick=function(){
-    			document.getElementById("bttb").play();
-  			}
-		</script>
 		
 		<script type="text/javascript">
+			window.addEventListener('touchstart', process_touchstart, false);
+			window.addEventListener('touchmove', process_touchmove, false);
+			window.addEventListener('touchcancel', process_touchcancel, false);
+			window.addEventListener('touchend', process_touchend, false);
+			
+			window.onclick=function(){
+    			document.getElementById("bttb").play();
+			}
+			window.ontouchstart=function(){
+    			document.getElementById("bttb").play();
+			}
 			window.ontouchmove=function(){
     			document.getElementById("bttb").play();
-  			}
+			}
+			window.ontouchcancel=function(){
+    			document.getElementById("bttb").play();
+			}
+			window.ontouchend=function(){
+    			document.getElementById("bttb").play();
+			}	
 		</script>
-			
+		
+		
 		<center>
 			<figure>
 				<img src="images/skull1.png" style="width:500px;height:500px">
