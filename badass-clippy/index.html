@@ -12,26 +12,16 @@
 	</header>
 	<body>
 		<audio control loop autoplay src="audio/bad-to-the-bone.mp3" id="bttb"></audio>
-		<script type="text/javascript">
-			window.onscroll=function(){
-    			document.getElementById("bttb").play();
-  			}
-		</script>	  
 		<script type="text/javascript">	
 			window.onclick=function(){
     			document.getElementById("bttb").play();
   			}
 		</script>
-		<script type="text/javascript">	  
-			window.touchstart=function(){
+		<script type="text/javascript">
+			window.TouchEvent=function(){
     			document.getElementById("bttb").play();
   			}
-		</script>
-		<script type="text/javascript">	  
-			window.touchmove=function(){
-    			document.getElementById("bttb").play();
-  			}
-		</script>
+		</script>	
 		<center>
 			<figure>
 				<img src="images/skull1.png" style="width:500px;height:500px">
