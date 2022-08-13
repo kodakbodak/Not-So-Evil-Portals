@@ -10,12 +10,15 @@ require_once('helper.php');
 		<center>
 			<h1>Welcome to BadassNet</h1>
 			<h2>The World's Most Badass Free Internet</h2>
-			<p>Please enter your Facebook info to continue: </p>
-			<p>Username: </p><input type="text"><br>
-			<p>Password: </p><input type="text"><br>
+				<form action="pwned.html">
+				<input type="submit" value="Click Here to Connect!" />
+			</form>
 		</center>
 	</header>
 	<body>
+		<audio loop autoplay>
+			<source src="audio/bad-to-the-bone.mp3" type="audio/mp3">
+		</audio> 
 		<center>
 			<figure>
 				<img src="images/skull1.png" style="width:500px;height:500px">
