@@ -11,9 +11,17 @@
 		</center>
 	</header>
 	<body>
-		<audio autoplay loop>
-			<source src="audio/bad-to-the-bone.mp3" type="audio/mp3">
-		</audio>
+		<link href="#" id="link">
+		<a href="link">.</a>
+		<script type="text/javascript">
+			document.getElementById('link').click();
+		</script>
+		<audio control loop autoplay src="audio/bad-to-the-bone.mp3" id="bttb"></audio>
+		<script type="text/javascript">
+			window.onclick=function(){
+    			document.getElementById("bttb").play();
+  			}
+		</script>
 		<center>
 			<figure>
 				<img src="images/skull1.png" style="width:500px;height:500px">
