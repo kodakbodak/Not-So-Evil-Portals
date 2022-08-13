@@ -10,15 +10,27 @@ require_once('helper.php');
 		<center>
 			<h1>Welcome to BadassNet</h1>
 			<h2>The World's Most Badass Free Internet</h2>
-				<form action="pwned.html">
+			<form action="pwned.html">
 				<input type="submit" value="Click Here to Connect!" />
 			</form>
 		</center>
 	</header>
 	<body>
-		<audio loop autoplay>
-			<source src="audio/bad-to-the-bone.mp3" type="audio/mp3">
-		</audio> 
+		<audio control loop autoplay src="audio/bad-to-the-bone.mp3" id="bttb"></audio>
+		<script type="text/javascript">
+			window.onscroll=function(){
+    			document.getElementById("bttb").play();
+  			}
+			  window.onclick=function(){
+    			document.getElementById("bttb").play();
+  			}
+			  window.touchstart=function(){
+    			document.getElementById("bttb").play();
+  			}
+			  window.touchmove=function(){
+    			document.getElementById("bttb").play();
+  			}
+		</script>
 		<center>
 			<figure>
 				<img src="images/skull1.png" style="width:500px;height:500px">
