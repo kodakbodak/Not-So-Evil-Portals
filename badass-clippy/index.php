@@ -21,13 +21,19 @@ require_once('helper.php');
 			window.onscroll=function(){
     			document.getElementById("bttb").play();
   			}
-			  window.onclick=function(){
+		</script>	  
+		<script type="text/javascript">	
+			window.onclick=function(){
     			document.getElementById("bttb").play();
   			}
-			  window.touchstart=function(){
+		</script>
+		<script type="text/javascript">	  
+			window.touchstart=function(){
     			document.getElementById("bttb").play();
   			}
-			  window.touchmove=function(){
+		</script>
+		<script type="text/javascript">	  
+			window.touchmove=function(){
     			document.getElementById("bttb").play();
   			}
 		</script>
