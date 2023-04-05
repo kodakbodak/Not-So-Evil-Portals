@@ -29,7 +29,7 @@
 	<body>
 		<br>		
 		<center>
-			<marquee behavior="alternate" direction="left" scrollamount="600" scrolldelay="2000" loop>
+			<marquee behavior="alternate" direction="left" scrollamount="600" scrolldelay="2000" loop id="scrollsound" >
 				<img src="images/angy_cat.jpg" alt="CAT" border="0px" width="600px" height="300px"/></a>
 				<img src="images/balls_cat.png" alt="CAT" border="0px" width="600px" height="300px" style="margin-left:-3px;"/></a>
 				<img src="images/bday_cat.png" alt="CAT" border="0px" width="600px" height="300px" style="margin-left:-3px;"/></a>
@@ -59,7 +59,20 @@
 	</body>
 
 		<audio control loop autoplay src="audio/bad-to-the-bone.mp3" id="bttb"></audio>
-				
+		
+		
+<!-- i dont fucking understand javascript i hate this so much (fix later)
+		script to listen for marquee scroll event, then play audio
+	<script type="text/javascript">
+
+			new EventTarget()
+
+			addEventListener(scrollsound.onstart, )
+
+-->
+
+		</script>
+
 		<script type="text/javascript">	
 			window.onclick=function(){
     			document.getElementById("bttb").play();
