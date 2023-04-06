@@ -20,7 +20,7 @@ Change directory to Not-So-Evil-Portals
 
 Copy the portals you wish to use on the MKII at `/root/portals/`
 
-    scp -r portal-login root@172.16.42.1:/root/portals/
+    scp -r whatever-portal root@172.16.42.1:/root/portals/
 
 Alternatively you can use [Filezilla](https://filezilla-project.org/) to copy the portals
 
