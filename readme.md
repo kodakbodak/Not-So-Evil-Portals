@@ -14,9 +14,9 @@ Clone the repository
 
 	git clone https://github.com/phosphor-1/Not-So-Evil-Portals.git
 
-Change directory to evilportals/portals/
+Change directory to Not-So-Evil-Portals
 
-	cd evilportals/portals/
+	cd Not-So-Evil-Portals
 
 Copy the portals you wish to use on the MKII at `/root/portals/`
 
