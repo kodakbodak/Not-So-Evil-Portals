@@ -7,8 +7,9 @@ require_once('helper.php');
 <html>
     <body>
         <center>
-            <h1>You Like Beef?</h1>
-            <img src="images/bitches.jpg" style="width:500px;height:500px">
+            <h1>Pride Cat</h1>
+            <img src="images/pride_cat.jpg" style="width:500px;height:500px">
+            <h1>Bottom Text</h1>
         </center>
     </body>
 </html>
