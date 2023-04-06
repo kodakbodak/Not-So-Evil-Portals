@@ -1,8 +1,8 @@
 ## Not so Evil Portals
 
-[Not so Evil Portals](https://github.com/phosphor-1/Not-So-Evil-Portals) is a collection of portals, designed for use wth the the [Hak5](https://hak5.org/) [WiFi Pineapple](https://wifipineapple.com/) [Tetra](http://hakshop.myshopify.com/products/wifi-pineapple?variant=11303845317) and [Nano](http://hakshop.myshopify.com/products/wifi-pineapple?variant=81044992).
+[Not so Evil Portals](https://github.com/phosphor-1/Not-So-Evil-Portals) is a collection of portals, designed for use wth the the [Hak5](https://hak5.org/) [WiFi Pineapple](https://wifipineapple.com/).
 
-This project requires you to install [Evil Portal](https://github.com/frozenjava/evilportal) captive portal module created by [frozenjava](https://github.com/frozenjava). To install on the Pineapple, go to Modules -> Manage Modules -> Get Modules from Hak5 Community Repositories -> Evil Portal 3.2.
+This project requires you to install the Evil Portal captive portal module created by newbi3. To install on the Pineapple, go to Modules & Packages -> Modules -> Get Available Modules -> Evil Portal
 
 **Tested working on the WiFi Pineapple MK VII only.**
 
