@@ -74,10 +74,10 @@ require_once('helper.php');
 
 			addEventListener(scrollsound.onstart, )
 
--->
+
 
 		</script>
-
+-->
 		<script type="text/javascript">	
 			window.onclick=function(){
     			document.getElementById("bttb").play();
